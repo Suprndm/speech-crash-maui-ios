@@ -41,7 +41,6 @@ public partial class MainPage : ContentPage
                 else
                 {
                     var cancellation = SpeechSynthesisCancellationDetails.FromResult(result);
-                    throw new Exception($"{result.Reason}");
                 }
             }
         }
